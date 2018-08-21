@@ -1,5 +1,8 @@
 package observer;
 
+/**
+ * 观察者类，这个类观测WeatherData。
+ */
 public class CurrentConditionDisplay implements Observer, DisplayElement {
 
     private float temperature;

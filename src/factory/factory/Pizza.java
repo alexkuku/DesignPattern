@@ -2,6 +2,10 @@ package factory.factory;
 
 import java.util.ArrayList;
 
+/**
+ * 工厂的产品
+ * 这是一个抽象基类，相比较于接口，抽象类能写一些公共属性和方法
+ */
 public abstract class Pizza {
 
     String name;

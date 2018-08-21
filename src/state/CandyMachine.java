@@ -5,6 +5,9 @@ import state.stateImpl.NoCoinState;
 import state.stateImpl.SoldOutState;
 import state.stateImpl.SoldState;
 
+/**
+ * 心血来潮写了一个gui进行测试，但这个gui还有些问题，不过大体调用方式没有问题，问题出自状态类的方法设计上
+ */
 public class CandyMachine {
     private State noCoinState;
     private State hasCoinState;

@@ -2,6 +2,9 @@ package observer;
 
 import java.util.ArrayList;
 
+/**
+ * 主题类，这个类就是被订阅者
+ */
 public class WeatherData implements Subject {
 
     private ArrayList<Observer> observers;

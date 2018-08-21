@@ -4,7 +4,6 @@ package singleton;
  * 双重加锁方式的单例
  * 1.volatile，确保准确更新
  * 2.synchronized，确保线程安全
- * 这种性能最好。
  */
 public class Singleton {
 

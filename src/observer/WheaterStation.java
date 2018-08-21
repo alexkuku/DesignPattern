@@ -1,5 +1,8 @@
 package observer;
 
+/**
+ * 测试类
+ */
 public class WheaterStation {
 
     public static void main(String[] args) throws InterruptedException {
